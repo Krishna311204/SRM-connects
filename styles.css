@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: red;
+  }
+  
+  .header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .main {
+    display: flex;
+    height: calc(100vh - 70px); /* 70px is the height of the header */
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+  }
+  
+  .left-section {
+    background-image: url('imgbg.jpg'); /* Replace 'path_to_your_left_image.jpg' with the actual path to your left image */
+  }
+  
+  .right-section {
+    background-image: url('imgbg2.jpg'); /* Replace 'path_to_your_right_image.jpg' with the actual path to your right image */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
